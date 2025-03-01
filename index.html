@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARRUECOS CITY ROLEPLAY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #FF5733, #C70039);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            direction: rtl;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            background: linear-gradient(to right, #FF4500, #FF5733);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 60px;
+        }
+
+        .note {
+            font-size: 14px;
+            color: yellow;
+            margin-top: 10px;
+        }
+
+        button {
+            background: #FF4500;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #C70039;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MARRUECOS CITY ROLEPLAY</h1>
+        
+        <form action="#" method="POST">
+            
+            <label for="phone">📞 رقم هاتفك:</label>
+            <input type="text" id="phone" name="phone" placeholder="0612345678">
+            
+            <label for="real-name">🧑 الاسم الحقيقي:</label>
+            <input type="text" id="real-name" name="real-name">
+
+            <label for="game-name">🎮 الاسم داخل اللعبة:</label>
+            <input type="text" id="game-name" name="game-name">
+
+            <label for="age">📅 عمرك:</label>
+            <input type="number" id="age" name="age">
+
+            <label for="experience">🏅 هل لديك خبرة؟</label>
+            <select id="experience" name="experience">
+                <option value="قليلة">قليلة</option>
+                <option value="متوسطة">متوسطة</option>
+                <option value="كبيرة">كبيرة</option>
+                <option value="نوعا ما">نوعًا ما</option>
+            </select>
+
+            <label for="mass-rp">❓ ما هو MASS RP؟</label>
+            <textarea id="mass-rp" name="mass-rp"></textarea>
+
+            <label for="green-zone-kill">💀 قتل داخل المنطقة الخضراء، ماذا تسمى؟</label>
+            <textarea id="green-zone-kill" name="green-zone-kill"></textarea>
+
+            <label for="hacking-punishment">🚨 عقوبة استخدام الهاك؟</label>
+            <textarea id="hacking-punishment" name="hacking-punishment"></textarea>
+
+            <label for="random-kill">🔫 قتل بدون سبب، ماذا تسمى؟</label>
+            <textarea id="random-kill" name="random-kill"></textarea>
+
+            <label for="about-you">📜 حدّثنا عنك:</label>
+            <textarea id="about-you" name="about-you"></textarea>
+
+            <p class="note">⚠️ **ملاحظة:** في حال قبولك، ستمر للامتحان الصوتي.</p>
+
+            <button type="submit">إرسال الطلب</button>
+
+        </form>
+    </div>
+</body>
+</html>
